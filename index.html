@@ -1,2 +1,298 @@
-Contact:i@rce.ink <br>
-Any ddos attack, unskilled clown ^^
+
+<html>
+
+<html>
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>depy</title>
+<link href="/assets/css/remixicon.css?v=2" rel="stylesheet">
+<link rel="stylesheet" href="/static/vcard/css/main.css?v=6">
+<link href="https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@300;400;600;900&display=swap" rel="stylesheet">
+<link rel="alternate" type="application/atom+xml" title="depy's blog &raquo; ATOM 1.0"
+    href="https://rce.ink/index/feed" />
+<script src="/assets/APlayer.min.js?v=3"></script>
+<link href="/assets/APlayer.min.css" rel="stylesheet">
+ <script src="/static/vcard/js/jquery-1.11.3.min.js"></script>
+<script type="text/javascript" src="/assets/jquery.pjax.min.js"></script>
+<script src="/static/vcard/js/jquery.toTop.min.js"></script>
+</head>
+<body>
+	<div class="main">
+    	<div class="main-content">
+        	<div class="site-header">
+				<a>
+				 <img class="avatar" src="/logo.jpg" alt="点一下我,开始听歌" onclick="window.ap.play()">
+				</a>
+				<h1 class="site-title">depy</h1>
+				<p class="site-description">Laying on the dock just talking to you.</p>
+				<div style="margin:20px auto; width: 50%;" id="player"></div>
+				  <div class="menu-container">
+    
+        <a href="/" class="menu">
+          Index
+        </a>
+        <a href="/index/contact" class="menu">
+          Me
+        </a>
+        <a href="/index/link" class="menu">
+          Link
+        </a>
+        
+        <a href="/index/time" class="menu">
+          Time
+        </a>
+  </div>
+    <div class="social-container">
+        <a href="https://www.zhihu.com/people/bySeve" target="_blank">
+          <i class="ri-zhihu-line"></i>
+        </a>
+        <a href="https://weibo.com/lemonsec" target="_blank">
+          <i class="ri-weibo-line"></i>
+        </a>
+        
+        <a href="https://github.com/h4ckdepy" target="_blank">
+          <i class="ri-github-line"></i>
+        </a>
+    
+  </div>  
+			</div>
+			<div id="toTop" class="to-top"><strong>^</strong></div>
+
+<style type="text/css">
+	pre {
+		white-space: pre-wrap; /*css-3*/
+		white-space: -moz-pre-wrap; /*Mozilla,since1999*/
+		white-space: -pre-wrap; /*Opera4-6*/
+		white-space: -o-pre-wrap; /*Opera7*/
+		word-wrap: break-word; /*InternetExplorer5.5+*/
+		background-color: WhiteSmoke;
+	}
+	.to-top { 
+		display: none; 
+		text-align:center;
+		color: #000000;
+		font-size: 48px;
+		z-index: 100;
+	}
+	
+	.loading-bar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 99999;
+  opacity: 0;
+  transition: opacity .4s linear;
+
+  .progress {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background-color: #77b6ff;
+    box-shadow: 0 0 10px rgba(119, 182, 255, .7);
+  }
+
+  &.loading {
+    opacity: 1;
+    transition: none;
+
+    .progress {
+      transition: width .4s ease;
+    }
+  }
+}
+	
+</style>
+<script>
+	$(function() {
+		$('.to-top').toTop();
+	});
+</script>  
+
+    <div id='LoadingMSG'>努力加载中,你可以静静欣赏音乐不受干扰...</div>
+    <div class="post-detail" id="article">
+          <article class="post">
+        
+                    <a href="https://docs.rce.ink/view/?view_id=121&t=1706237936042" target="_blank">
+                         <h2 class="post-title">某加密样本 Trace分析</h2>
+                       </a>
+          <div class="post-info">
+            <span>
+              2024-01-26            </span>
+                        <span>
+              网络安全            </span>
+                      </div>
+                       <a href="https://docs.rce.ink/view/?view_id=115&t=1704543267221" target="_blank">
+                         <h2 class="post-title">轻量级CI/CD+文件内容监控/防篡改解决方案</h2>
+                       </a>
+          <div class="post-info">
+            <span>
+              2024-01-06            </span>
+                        <span>
+              项目            </span>
+                      </div>
+                       <a href="https://docs.rce.ink/view/?view_id=109" target="_blank">
+                         <h2 class="post-title">2023</h2>
+                       </a>
+          <div class="post-info">
+            <span>
+              2023-12-28            </span>
+                        <span>
+              杂记            </span>
+                      </div>
+                       <a href="https://docs.rce.ink/view/?view_id=65" target="_blank">
+                         <h2 class="post-title">JSVMP执行流程分析</h2>
+                       </a>
+          <div class="post-info">
+            <span>
+              2023-12-17            </span>
+                        <span>
+              体验            </span>
+                      </div>
+                       <a href="https://docs.rce.ink/view/?view_id=71" target="_blank">
+                         <h2 class="post-title">【NDK开发】NDK采集、压缩、加密传输设备信息</h2>
+                       </a>
+          <div class="post-info">
+            <span>
+              2023-11-14            </span>
+                        <span>
+              项目            </span>
+                      </div>
+                       <a href="/index/view/425.go">
+                         <h2 class="post-title">Netty 开发Mitm解决请求响应匹配问题</h2>
+                       </a>
+          <div class="post-info">
+            <span>
+              2023-09-16            </span>
+                        <span>
+              项目            </span>
+                      </div>
+                       <a href="https://mp.weixin.qq.com/s/SKiuVcPkU_A8RNjA26VHEQ" target="_blank">
+                         <h2 class="post-title">Un1kMsg使用端对端加密</h2>
+                       </a>
+          <div class="post-info">
+            <span>
+              2022-10-18            </span>
+                        <span>
+              项目            </span>
+                      </div>
+                       <a href="/index/view/402.go">
+                         <h2 class="post-title">Un1kLog4shellScan</h2>
+                       </a>
+          <div class="post-info">
+            <span>
+              2022-07-12            </span>
+                        <span>
+              项目            </span>
+                      </div>
+                       <a href="/index/view/398.go">
+                         <h2 class="post-title">Un1kCTF</h2>
+                       </a>
+          <div class="post-info">
+            <span>
+              2022-04-23            </span>
+                        <span>
+              项目            </span>
+                      </div>
+                     </article>
+        
+
+
+
+  
+  <div class="pagination-container" id="next">
+   <a href="/index/?p=2" class="next-page">下一页</a>
+  </div>
+ 
+
+   
+        </div>
+    
+<div class="site-footer">
+    <a href="https://creativecommons.org/licenses/by-nc-nd/4.0/" target="_blank">CC BY-NC-ND 4.0</a>
+        <a class="rss" href="/index/feed" target="_blank"></a><br><hr><br>
+        <div>
+            
+            <link href="/theme/docs/css/prettify.css" rel="stylesheet">
+<script src="/theme/docs/js/prettify.js"></script>
+        <script>
+        console.log("\n %c DepyDocs私有化部署出售中,联系:i[AT]rce.ink %c http://docs.rce.ink \n","color: #fadfa3; background: #030307; padding:5px 0;","background: #fadfa3; padding:5px 0;")
+        </script>
+        
+        <script type="text/javascript">
+        
+        $('#LoadingMSG').hide();
+        	function newplayer() {
+        	    
+        	    //获取歌曲列表
+        	    window.audio = [];
+			    var url = '/music.txt';
+                
+                var xhr = new XMLHttpRequest();
+                xhr.open('GET', url, true);
+                
+                xhr.onreadystatechange = function() {
+                  if (xhr.readyState === 4 && xhr.status === 200) {
+                    var response = xhr.responseText;
+                    var data = JSON.parse(response);
+                    for(var i=0;i<data.length;i++){
+                        window.ap.list.add({name: data[i]['name'], artist: data[i]['ar'][0]['name'], url: "https://music.163.com/song/media/outer/url?id="+data[i]['id'], cover: data[i]['al']['picUrl'], theme: "#FADFA3",lrc:"/index/index/lrc?id="+data[i]['id']});
+                    }
+                     //后台歌曲加载
+                                        window.ap.list.add({name: "好好睡的歌", artist: "Frandé", url: "https://p1.meituan.com/xianfu/6fc18782240a3a9c9011db362e6da8ad2785761.mp3@watermark=1&&object=L3dkY2Zsb3cvN2RiN2M4NTFjYmVjZDg4MTM1OTZjMTYzOWE2MzQ4MDM0MjY0LnBuZw==&p=8&t=90&x=10&y=10", cover: "https://p0.meituan.net/xianfu/5e6c7159b004cafed069cffd06db92ec2522.jpg@watermark=1&&object=L3dkY2Zsb3cvN2RiN2M4NTFjYmVjZDg4MTM1OTZjMTYzOWE2MzQ4MDM0MjY0LnBuZw==&p=8&t=90&x=10&y=10", lrc:"https://rce.ink/index/index/lrc?id=355505",theme: "#FADFA3"});
+                                        window.ap.list.add({name: "起风了", artist: "买辣椒也用券", url: "https://p1.meituan.com/xianfu/963b2f3ee7151d68d8cc648cbf049afe13007983.mp3@watermark=1&&object=L3dkY2Zsb3cvN2RiN2M4NTFjYmVjZDg4MTM1OTZjMTYzOWE2MzQ4MDM0MjY0LnBuZw==&p=8&t=90&x=10&y=10", cover: "https://p1.meituan.net/xianfu/d44b3c67afebee70d35dda299765a17d26115.png@watermark=1&&object=L3dkY2Zsb3cvN2RiN2M4NTFjYmVjZDg4MTM1OTZjMTYzOWE2MzQ4MDM0MjY0LnBuZw==&p=8&t=90&x=10&y=10", lrc:"https://rce.ink/index/index/lrc?id=1330348068",theme: "#FADFA3"});
+                                        window.ap.list.add({name: "七里香", artist: "周杰伦", url: "https://p1.meituan.com/xianfu/d03274ff41a1b91a03c19d7324dd1c6612047421.mp3@watermark=1&&object=L3dkY2Zsb3cvN2RiN2M4NTFjYmVjZDg4MTM1OTZjMTYzOWE2MzQ4MDM0MjY0LnBuZw==&p=8&t=90&x=10&y=10", cover: "https://p0.meituan.net/xianfu/86a95bc8332be087a680b435a8b6e12a4343.jpg@watermark=1&&object=L3dkY2Zsb3cvN2RiN2M4NTFjYmVjZDg4MTM1OTZjMTYzOWE2MzQ4MDM0MjY0LnBuZw==&p=8&t=90&x=10&y=10", lrc:"https://rce.ink/index/index/lrc?id=186001",theme: "#FADFA3"});
+                                        window.ap.list.add({name: "阿卡丽", artist: "等什么君", url: "https://p1.meituan.com/xianfu/4c41022b20b6c2ae12547830d44e2add2334924.mp3@watermark=1&&object=L3dkY2Zsb3cvN2RiN2M4NTFjYmVjZDg4MTM1OTZjMTYzOWE2MzQ4MDM0MjY0LnBuZw==&p=8&t=90&x=10&y=10", cover: "https://p0.meituan.net/xianfu/1d850c19f0c166126450aa95c44bbb8d4229.jpg@watermark=1&&object=L3dkY2Zsb3cvN2RiN2M4NTFjYmVjZDg4MTM1OTZjMTYzOWE2MzQ4MDM0MjY0LnBuZw==&p=8&t=90&x=10&y=10", lrc:"https://rce.ink/index/index/lrc?id=1897736272",theme: "#FADFA3"});
+                                        window.ap.list.add({name: "青花瓷", artist: "周杰伦", url: "https://p1.meituan.com/xianfu/d511f5eb6505803e3c2c6d143cee52384018480.mp3@watermark=1&&object=L3dkY2Zsb3cvN2RiN2M4NTFjYmVjZDg4MTM1OTZjMTYzOWE2MzQ4MDM0MjY0LnBuZw==&p=8&t=90&x=10&y=10", cover: "https://p0.meituan.net/xianfu/86a95bc8332be087a680b435a8b6e12a4343.jpg@watermark=1&&object=L3dkY2Zsb3cvN2RiN2M4NTFjYmVjZDg4MTM1OTZjMTYzOWE2MzQ4MDM0MjY0LnBuZw==&p=8&t=90&x=10&y=10", lrc:"https://rce.ink/index/index/lrc?id=185811",theme: "#FADFA3"});
+                                        window.ap.list.add({name: "晴天", artist: "周杰伦", url: "https://p1.meituan.com/xianfu/89ce3d601ebf5bd3b3da9efe5d6cad654655974.mp3@watermark=1&&object=L3dkY2Zsb3cvN2RiN2M4NTFjYmVjZDg4MTM1OTZjMTYzOWE2MzQ4MDM0MjY0LnBuZw==&p=8&t=90&x=10&y=10", cover: "https://p1.meituan.net/xianfu/67b61906bb3c675cbb2b9d046007b5d947440.png@watermark=1&&object=L3dkY2Zsb3cvN2RiN2M4NTFjYmVjZDg4MTM1OTZjMTYzOWE2MzQ4MDM0MjY0LnBuZw==&p=8&t=90&x=10&y=10", lrc:"https://rce.ink/index/index/lrc?id=186016",theme: "#FADFA3"});
+                                        window.ap.list.add({name: "龙卷风", artist: "周杰伦", url: "https://p1.meituan.com/xianfu/004b2c5229e17d70c28251ea6f223d194324363.mp3@watermark=1&&object=L3dkY2Zsb3cvN2RiN2M4NTFjYmVjZDg4MTM1OTZjMTYzOWE2MzQ4MDM0MjY0LnBuZw==&p=8&t=90&x=10&y=10", cover: "https://p0.meituan.net/xianfu/86a95bc8332be087a680b435a8b6e12a4343.jpg@watermark=1&&object=L3dkY2Zsb3cvN2RiN2M4NTFjYmVjZDg4MTM1OTZjMTYzOWE2MzQ4MDM0MjY0LnBuZw==&p=8&t=90&x=10&y=10", lrc:"https://rce.ink/index/index/lrc?id=186160",theme: "#FADFA3"});
+                                        window.ap.list.add({name: "断了的弦", artist: "周杰伦", url: "https://p1.meituan.com/xianfu/5618cab099c8acbe3e25fc4525ef19553619390.mp3@watermark=1&&object=L3dkY2Zsb3cvN2RiN2M4NTFjYmVjZDg4MTM1OTZjMTYzOWE2MzQ4MDM0MjY0LnBuZw==&p=8&t=90&x=10&y=10", cover: "https://p0.meituan.net/xianfu/72ea8a3bbaea6b83d61fc2fa2613c0e625212.jpg@watermark=1&&object=L3dkY2Zsb3cvN2RiN2M4NTFjYmVjZDg4MTM1OTZjMTYzOWE2MzQ4MDM0MjY0LnBuZw==&p=8&t=90&x=10&y=10", lrc:"https://rce.ink/index/index/lrc?id=186011",theme: "#FADFA3"});
+                                        window.ap.list.add({name: "爱在西元前", artist: "周杰伦", url: "https://p1.meituan.com/xianfu/4d7f24106c983627058b6f50c4b809fa1897656.mp3@watermark=1&&object=L3dkY2Zsb3cvN2RiN2M4NTFjYmVjZDg4MTM1OTZjMTYzOWE2MzQ4MDM0MjY0LnBuZw==&p=8&t=90&x=10&y=10", cover: "https://p0.meituan.net/xianfu/72ea8a3bbaea6b83d61fc2fa2613c0e625212.jpg@watermark=1&&object=L3dkY2Zsb3cvN2RiN2M4NTFjYmVjZDg4MTM1OTZjMTYzOWE2MzQ4MDM0MjY0LnBuZw==&p=8&t=90&x=10&y=10", lrc:"https://rce.ink/index/index/lrc?id=186073",theme: "#FADFA3"});
+                                        window.ap.list.add({name: "爷爷泡的茶", artist: "周杰伦", url: "https://p1.meituan.com/xianfu/9b0e129aa543e59fe3e37317e63e7ca49641506.mp3@watermark=1&&object=L3dkY2Zsb3cvN2RiN2M4NTFjYmVjZDg4MTM1OTZjMTYzOWE2MzQ4MDM0MjY0LnBuZw==&p=8&t=90&x=10&y=10", cover: "https://p0.meituan.net/xianfu/72ea8a3bbaea6b83d61fc2fa2613c0e625212.jpg@watermark=1&&object=L3dkY2Zsb3cvN2RiN2M4NTFjYmVjZDg4MTM1OTZjMTYzOWE2MzQ4MDM0MjY0LnBuZw==&p=8&t=90&x=10&y=10", lrc:"https://rce.ink/index/index/lrc?id=186053",theme: "#FADFA3"});
+                                      }
+                };
+                xhr.send();
+                
+
+                window.ap = new APlayer({
+                    container: document.getElementById('player'),
+                    listFolded: false,
+                    fixed: true,
+                    lrcType: 3,
+                    listMaxHeight: 90,
+                    order: "random",
+                    audio: []
+                });
+        	}
+        
+            newplayer();
+            
+        $(function() {
+            $(document).pjax("a[target!=_blank]", "#article", {fragment:"#article", timeout:6000});
+                $(document).on("pjax:send", function() {
+                    // $("#article").fadeTo(700,0.0);
+                    $('#LoadingMSG').show();
+                    $("#article").hide();
+                    
+                });
+                $(document).on("pjax:complete", function() {
+                    //根据不同的blog添加音乐,太复杂了,先不做
+                    // $("#article").fadeTo(700,1);
+                    $('#LoadingMSG').hide();
+                    $("#article").show();
+                });
+            });
+            
+        </script>
+    
+    </div>
+</div>  
+
+
+      </div>
+    </div>
+  </body>
+  
+</html>
